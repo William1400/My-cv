@@ -1,1 +1,30 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #b7b7bde0;
+    
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    
+    
+    
+    width: 25%;
+    border:solid 2px red;
+}
+
+aside {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content:flex-start;
+    height: 100%;
+    background-color: #4A4F61;
+    border: solid 2px blue
+}
