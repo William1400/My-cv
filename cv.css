@@ -23,7 +23,7 @@ aside {
     flex-direction: column; /*----flex-direction + flex-wrap----*/    
     justify-content: right;
     align-items: stretch;
-    gap: 200px;
+    gap: 195px;
     
     width: 15%;
     padding: 60px ;
@@ -44,7 +44,6 @@ aside > section {
 
 aside > section > h2 {  
     text-decoration: underline peru;
-    -moz-text-decoration-style:double;
     text-decoration-style: double;
 }
  
